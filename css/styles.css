@@ -29,7 +29,7 @@ ul,ol {
 }
 
 .section {
-    
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -237,6 +237,8 @@ letter-spacing: 0.02em;
     margin-bottom: 94px;
    
 }
+
+
 
 .hero-title {
    
