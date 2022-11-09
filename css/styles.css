@@ -134,6 +134,10 @@ header {
     padding-bottom: 32px;
 }
 
+.active {
+    color: var(--accent-text-color-first) ;
+}
+
 .nav-item {
     margin-right: 50px;
 }
@@ -426,14 +430,14 @@ li {
 
 .filter {
 
-        padding-top: 0 px;
+    padding: 94px 0;
 }
 .filter-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
-    padding-top: 96px;
+    margin-bottom: 50px;
+   
 }
 
 .filter-item {
@@ -455,8 +459,7 @@ li {
     cursor: pointer;
     height: 38px;
     border-radius: 4px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding: 6px 22px;
  }
 
  .filter-button:hover,
@@ -473,7 +476,7 @@ li {
     gap: 30px;
     align-items: center;
     justify-content: center;
-    padding-bottom: 92px;
+    
 } 
 
 .projects-item {
